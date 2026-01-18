@@ -24,11 +24,11 @@ gcc hoproxy.c -o hoproxy
 
 //
 openvpn只需要在客户端修改添加
-remote 这里任意域名 80 tcp
+remote 这里任意域名 80 
 http-proxy 这里填写代理ip 80
 
 
-remote Any domain name allowed here 80 tcp
+remote Any domain name allowed here 80 
 http-proxy Enter the proxy IP here
 Proxy IP goes here 80
 //
