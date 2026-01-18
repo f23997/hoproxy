@@ -1,7 +1,13 @@
 # hoproxy
 HTTP Tunnel Proxy Supports arbitrary domain camouflage / disguise, and forwards traffic to any specified target IP:port over TCP.
 
+Normal proxies only CONNECT to the real IP + port.
+hoproxy can accept requests for any domain name, and then forward them to the specified backend TCP IP + port.
+-
+一般代理只会connect真实ip端口
 
+hoproxy 可以收到任意请求域名，然后转发到指定的后端tcp ip端口
+-
 ​服务端ubuntu
 
 部署建议
@@ -9,9 +15,13 @@ HTTP Tunnel Proxy Supports arbitrary domain camouflage / disguise, and forwards 
 #​安装
  apt install socat gcc git -y
 
- git clone https://github.com/f23997/hoproxy.git
 
- cd hoproxy
+wget https://github.com/user-attachments/files/24694287/hoproxy1.0.zip
+
+解压
+unzip hoproxy1.0.zip
+
+ 
 
  
  
