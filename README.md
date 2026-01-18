@@ -12,20 +12,21 @@ hoproxy 可以收到任意请求域名，然后转发到指定的后端tcp ip端
 
 部署建议
 
-#​安装
+#​安装#
+
  apt install socat gcc git -y
 
 
 wget https://github.com/user-attachments/files/24694287/hoproxy1.0.zip
 
-解压
+解压#
 unzip hoproxy1.0.zip
 
  
 
  
  
-#编译
+#编译#
 gcc hoproxy.c -o hoproxy
 
 配合支持http-proxy的客户端openvpn ssh proxytunnel混淆流量
@@ -48,7 +49,7 @@ Proxy IP goes here 80
 # -d: 后台运行
 # -l: 监听 80 端口
 # -r: 转发到ip的1194 端口
-运行它
+运行它#
 ./hoproxy -d -l 80 -r 127.0.0.1:1194
 
 
