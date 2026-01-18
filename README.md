@@ -14,6 +14,9 @@ gcc hoproxy.c -o hoproxy
 
 配合支持http-proxy的客户端openvpn ssh proxytunnel混淆流量
 
+
+
+//
 client
 nobind
 dev tun
@@ -21,8 +24,8 @@ remote-cert-tls server
 remote 这里任意域名 80 tcp
 http-proxy 这里填写代理ip 80
 
-
-
+//
+//
 
 client
 nobind
@@ -31,7 +34,7 @@ remote-cert-tls server
 remote Any domain name allowed here 80 tcp
 http-proxy Enter the proxy IP here
 Proxy IP goes here 80
-
+//
 ​启动命令（转发到目标地址）：
 
 
