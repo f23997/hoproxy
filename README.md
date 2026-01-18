@@ -8,13 +8,15 @@ hoproxy can accept requests for any domain name, and then forward them to the sp
 
 hoproxy 可以收到任意请求域名，然后转发到指定的后端tcp ip端口
 -
+
+转发后面的地址需要有服务
 ​服务端ubuntu
 
 部署建议
 
 #​安装#
 
- apt install socat gcc git -y
+ apt install socat gcc unzip -y
 
 
 wget https://github.com/user-attachments/files/24694287/hoproxy1.0.zip
