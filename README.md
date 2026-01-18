@@ -7,7 +7,7 @@ HTTP Tunnel Proxy Supports arbitrary domain camouflage / disguise, and forwards 
 部署建议
 
 #​安装
- apt install socat gcc git
+ apt install socat gcc git -y
 
  git clone https://github.com/f23997/hoproxy.git
 
